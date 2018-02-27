@@ -14,7 +14,7 @@ const C:React.SFC = p => (
         position='Authors: S. Snipes, D. Kurban, S. Accascina, B. A. Poser, B.Sorger'
         date='Jun 2017'>
         <p>
-          <a href='https://simone.accascina.me/biword/poster.pdf'>Poster</a>&nbsp;
+          <a href='poster.pdf'>Poster</a>&nbsp;
           at the OHBM2017 conference in Vancouver, Canada.
         </p>
       </DatedItem>

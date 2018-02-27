@@ -34,7 +34,7 @@ const C:React.SFC = p => (
         <List.Item>
           <List.Icon name='linkify' />
           <List.Content>
-            <a href='https://simone.accascina.me'>accascina.me</a>
+            <a href='https://simon.accascina.me'>accascina.me</a>
           </List.Content>
         </List.Item>
         <List.Item>
