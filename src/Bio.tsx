@@ -15,7 +15,7 @@ const C:React.SFC = p => (
     <Grid.Column verticalAlign='middle' textAlign='center' only='tablet mobile' mobile={16}>
       {NAME}
     </Grid.Column>
-    <Grid.Column verticalAlign='middle' largeScreen={5} computer={5} tablet={6} mobile={6}>
+    <Grid.Column verticalAlign='middle' largeScreen={5} computer={5} tablet={6} mobile={10}>
       <List>
         <List.Item>
           <List.Icon name='marker' />
@@ -54,7 +54,7 @@ const C:React.SFC = p => (
     <Grid.Column verticalAlign='middle' textAlign='center' computer={7} only='computer'>
       {NAME}
     </Grid.Column>
-    <Grid.Column floated='right' largeScreen={3} computer={3} tablet={6} mobile={12}>
+    <Grid.Column floated='right' largeScreen={3} computer={3} tablet={6} mobile={6}>
       <Image src={headshot} size='small' />
     </Grid.Column>
   </Grid.Row>
