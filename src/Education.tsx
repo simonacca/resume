@@ -9,7 +9,7 @@ interface PropsItem extends PropsDatedItem {
 const Item: React.SFC<PropsItem> = p => (
   <DatedItem {...p}>
     {p.children}
-    <Header as='h4'>Courses</Header>
+    {p.courses && (<Header as='h4'>Courses</Header>)}
     <Label.Group
       size='small'
       content={p.courses && p.courses.map(c => <Label  key={c} content={c} />)}
@@ -18,10 +18,27 @@ const Item: React.SFC<PropsItem> = p => (
 )
 
 const C:React.SFC = p => {
+  const COURSES_AVOGADRO = [
+    'Mathematics',
+    'Physics',
+    'Biology',
+    'Chemistry',
+    'Earth sciences',
+    'Astronomy',
+    'Technical design',
+    'Italian literature',
+    'English literature',
+    'Latin literature',
+    'Latin language',
+    'History',
+    'Philosophy',
+    'Art history',
+  ]
   const COURSES_PH = [
     "Calculus I",
     "Calculus II",
-    "Physics I (theory and lab)",
+    "Physics I- theory",
+    "Physics I - lab",
     "Linear algebra",
   ]
   const COURSES_CS = [
@@ -65,7 +82,7 @@ const C:React.SFC = p => {
           </Item>
               
           <Item title='Bachelor in Physics (incomplete)' position={UNITN} startDate='Sep 2013' endDate='Sep 2014' courses={COURSES_PH} />
-          <Item title='Scientific Lyceum'  position={'A. Avogadro, Rome'} startDate='Sep 2008' endDate='Jun 2013' />
+          <Item title='Scientific Lyceum'  position={'A. Avogadro, Rome'} startDate='Sep 2008' endDate='Jun 2013' courses={COURSES_AVOGADRO} />
       </Grid>
     </Grid.Row>
   )

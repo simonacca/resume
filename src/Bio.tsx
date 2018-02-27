@@ -5,7 +5,7 @@ const headshot = require('./me.jpg')
 
 const C:React.SFC = p => (
   <Grid.Row>
-    <Grid.Column width={5}>
+    <Grid.Column computer={5} verticalAlign='middle' mobile={12}>
       <List>
         <List.Item>
           <List.Icon name='marker' />
@@ -33,15 +33,21 @@ const C:React.SFC = p => (
             <a href='https://keybase.io/simonacca/'>Keybase</a>
           </List.Content>
         </List.Item>
+        <List.Item>
+          <List.Icon name='file pdf outline' />
+          <List.Content>
+            <a href='simon_accascina_CV.pdf'>PDF</a>
+          </List.Content>
+        </List.Item>
       </List>
     </Grid.Column>
-    <Grid.Column verticalAlign='middle' textAlign='center' width={7}>
-      <Header as='h1'>
+    <Grid.Column verticalAlign='middle' textAlign='center' computer={7} mobile={12}>
+      <Header as='h1' color='teal'>
         SIMON ACCASCINA
         <Header.Subheader>Computer Scientist</Header.Subheader>
       </Header>
     </Grid.Column>
-    <Grid.Column floated='right' width={3}>
+    <Grid.Column floated='right' computer={3} mobile={12}>
       <Image src={headshot} size='large' />
     </Grid.Column>
   </Grid.Row>

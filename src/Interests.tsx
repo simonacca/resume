@@ -13,6 +13,12 @@ const C:React.SFC = p => (
           Pursuing trekking and skiing solo as well as part of the scouts.
         </p>
       </DatedItem>
+      <DatedItem title='Electronics'>
+        <p>
+          Embedded programming projects and hobbyst-level hardware design and
+          manifacturing.
+        </p>
+      </DatedItem>
     </Grid>
   </Grid.Row>
 )

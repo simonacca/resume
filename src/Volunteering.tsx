@@ -9,10 +9,12 @@ const C:React.SFC = p => (
         <SectionHeader title='Volunteering' icon='users' />
       </Grid.Row>
 
-      <DatedItem title='Arduino Open Day' position='Instructor'
+      <DatedItem title='Arduino Open Day' position='MUSE, Trento, IT'
         date='Apr 2016' href='https://day.arduino.cc/'>
         <p>
-          A worldwide event bringing together arduino people and projects.
+          A worldwide event where Arduino enthusiasts share their projects with the public.
+          I contributed to the event by teaching several introductory
+          classes to the Arduino platform and electronics in general.
         </p>
       </DatedItem>
     </Grid>

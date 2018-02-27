@@ -9,7 +9,7 @@ interface PropsSectionHeader {
 }
 
 export const SectionHeader: React.SFC<PropsSectionHeader> = p => (
-  <Header as='h2'>
+  <Header as='h2' color='teal'>
     <Icon name={p.icon} />
     {p.title}
   </Header>
@@ -35,9 +35,14 @@ export const DatedItem:React.SFC<PropsDatedItem> = p => {
         {date}
       </Grid.Column>
       <Grid.Column width={12}>
-        <a href={p.href}>
-          <Header as='h3'>
+        <a href={p.href} target='_blank'>
+          <Header as='h3' color='orange'>
             {p.title} {p.description ? '-' : ''} {p.description}
+            {p.href && (
+              <span style={{marginLeft: '3px'}}>
+                <Icon size='tiny' color='grey' name='external share' />
+              </span>
+            )}
             <Header.Subheader>
               {p.position}
             </Header.Subheader>

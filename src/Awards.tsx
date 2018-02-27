@@ -9,7 +9,7 @@ const C:React.SFC = p => (
         <SectionHeader title='Awards' icon='winner' />
       </Grid.Row>
 
-      <DatedItem title='Hack.Developers' date='Oct 2017' position='Italian government Hackaton' href='https://hack.developers.italia.it/'>
+      <DatedItem title='Hack.Developers' date='Oct 2017' position='Italian government hackaton' href='https://hack.developers.italia.it/'>
         <p>
           Winner of the "Wise turtle" award for the creation of
           a visualization tool for the data & analytics framework at the
@@ -22,7 +22,7 @@ const C:React.SFC = p => (
           awarded for contributions to the open source community.
         </p>
       </DatedItem>
-      <DatedItem title='Innovation award' position='University of Maastricht - Center for Entepreneurship' date='Feb 2017' href='www.mc4e.nl/launchbase/'>
+      <DatedItem title='Innovation Award' position='Center for Entrepreneurship - University of Maastricht' date='Feb 2017' href='www.mc4e.nl/launchbase/'>
         <p>
           Honorary certificate awarded to the most innovative startup
           of the LaunchBase pre-incubation programme.

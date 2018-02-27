@@ -17,11 +17,11 @@ const Document:React.SFC = p => (
     <Bio />
     <Education />
     <Projects />
-    <Awards />
     <Publications />
+    <Awards />
     <Volunteering />
     <Skills />
-    <Interests /> 
+    {/* <Interests />  */}
   </Grid>
 )
 
