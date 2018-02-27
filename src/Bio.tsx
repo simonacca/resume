@@ -3,9 +3,19 @@ import { List, Grid, Header, Image } from 'semantic-ui-react'
 
 const headshot = require('./me.jpg')
 
+const NAME = (
+    <Header as='h1' color='teal'>
+      SIMON ACCASCINA
+      <Header.Subheader>Computer Scientist</Header.Subheader>
+    </Header>
+)
+
 const C:React.SFC = p => (
   <Grid.Row>
-    <Grid.Column computer={5} verticalAlign='middle' mobile={12}>
+    <Grid.Column verticalAlign='middle' textAlign='center' only='tablet mobile' mobile={16}>
+      {NAME}
+    </Grid.Column>
+    <Grid.Column verticalAlign='middle' largeScreen={5} computer={5} tablet={6} mobile={6}>
       <List>
         <List.Item>
           <List.Icon name='marker' />
@@ -41,14 +51,11 @@ const C:React.SFC = p => (
         </List.Item>
       </List>
     </Grid.Column>
-    <Grid.Column verticalAlign='middle' textAlign='center' computer={7} mobile={12}>
-      <Header as='h1' color='teal'>
-        SIMON ACCASCINA
-        <Header.Subheader>Computer Scientist</Header.Subheader>
-      </Header>
+    <Grid.Column verticalAlign='middle' textAlign='center' computer={7} only='computer'>
+      {NAME}
     </Grid.Column>
-    <Grid.Column floated='right' computer={3} mobile={12}>
-      <Image src={headshot} size='large' />
+    <Grid.Column floated='right' largeScreen={3} computer={3} tablet={6} mobile={12}>
+      <Image src={headshot} size='small' />
     </Grid.Column>
   </Grid.Row>
 )
