@@ -19,11 +19,11 @@ const C:React.SFC = p => (
       <List>
         <List.Item>
           <List.Icon name='marker' />
-          <List.Content>Via Castel Boverano 55, Rome, Italy</List.Content>
+          <List.Content>Rome, Italy</List.Content>
         </List.Item>
         <List.Item>
           <List.Icon name='phone' />
-          <List.Content>+39 338 4340 853</List.Content>
+          <List.Content><a href="#">+39 338 **** ***</a></List.Content>
         </List.Item>
         <List.Item>
           <List.Icon name='mail' />

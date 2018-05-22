@@ -11,6 +11,7 @@ import Publications from './Publications'
 import Skills from './Skills'
 import Volunteering from './Volunteering'
 import Interests from './Interests'
+import Speaking from './Speaking'
 
 const Document:React.SFC = p => (
   <Grid container divided='vertically' padded='vertically'>
@@ -18,6 +19,7 @@ const Document:React.SFC = p => (
     <Education />
     <Projects />
     <Publications />
+    <Speaking /> 
     <Awards />
     <Volunteering />
     <Skills />
