@@ -19,7 +19,7 @@ const C:React.SFC = p => (
       <List>
         <List.Item>
           <List.Icon name='marker' />
-          <List.Content>Rome, Italy</List.Content>
+          <List.Content>Zurich, Switzerland</List.Content>
         </List.Item>
         <List.Item>
           <List.Icon name='phone' />
@@ -43,12 +43,12 @@ const C:React.SFC = p => (
             <a href='https://keybase.io/simonacca/'>Keybase</a>
           </List.Content>
         </List.Item>
-        <List.Item>
+        {/* <List.Item>
           <List.Icon name='file pdf outline' />
           <List.Content>
             <a href='simon_accascina_CV.pdf'>PDF</a>
           </List.Content>
-        </List.Item>
+        </List.Item> */}
       </List>
     </Grid.Column>
     <Grid.Column verticalAlign='middle' textAlign='center' computer={7} only='computer'>

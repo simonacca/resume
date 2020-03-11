@@ -1,0 +1,239 @@
+{
+  "basics": {
+    "name": "Simon Accascina",
+    "label": "Computer Scientist",
+    "picture": "https://accascina.me/me.jpg",
+    "email": "simon@accascina.me",
+    "phone": "+39 338 4340 853",
+    "website": "https://simon.accascina.me/",
+    "location": {
+      "address": "Via Castel Boverano 55",
+      "postalCode": "00158",
+      "city": "Rome",
+      "countryCode": "IT",
+      "region": "Latium"
+    },
+    "profiles": [
+      {
+        "network": "keybase",
+        "username": "Keybase: simonacca",
+        "url": "https://keybase.io/simonacca/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Takuino - knowledge management platform",
+      "position": "CEO/CTO",
+      "website": "https://takuino.com",
+      "startDate": "2013-12-01",
+      "summary": "Ideation, software development and marketing of an innovative knowledge management platform.",
+      "highlights": [
+        "",
+        ""
+      ]
+    },
+    {
+      "company": "Biword - brain computer interface",
+      "website": "https://biword.sophia.science/",
+      "startDate": "2017-02-01",
+      "summary": "Co-Ideation, software development and experimental validation of a Brain-Computer interface based on binary search.",
+      "highlights": [
+        "Unimaas",
+        ""
+      ]
+    },
+    {
+      "company": "Campus news bot",
+      "website": "https://campus.services/trento/",
+      "startDate": "2015-03-01",
+      "endDate": "2017-08-01",
+      "summary": "Co-Ideation, software development and maintenance of a campus wide push notification system for the University of Trento.",
+      "highlights": [
+        "",
+        ""
+      ]
+    },
+    {
+      "company": "Zatt - distributed storage system",
+      "website": "https://github.com/simonacca/zatt/",
+      "startDate": "2016-02-01",
+      "endDate": "2016-06-01",
+      "summary": "Implementation of a distributed storage system built on the Raft consensus algorithm.",
+      "highlights": [
+        "Bachelor thesis @ UNITN",
+        ""
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Arduino open day",
+      "position": "Instructor",
+      "website": "https://day.arduino.cc/",
+      "startDate": "2016-04-01",
+      "endDate": "2016-04-01",
+      "summary": "A worldwide event bringing together arduino people and projects."
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Trento, Italy",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2014-09-01",
+      "endDate": "2017-08-01",
+      "courses": [
+        "Linear algebra",
+        "Discrete mathematics",
+        "Calculus",
+        "Probability and Statistics",
+        "Logic",
+        "Physics",
+        "Software engineering I",
+        "Software engineering II",
+        "Computer Architecture",
+        "Functional Programming",
+        "Algorithms and data structures",
+        "Operating systems",
+        "Advanced Algorithms - LionLab",
+        "Human Computer interaction",
+        "Languages and compilers",
+        "Computer Networking",
+        "Databases"
+      ]
+    },
+    {
+      "institution": "University of Trento, Italy",
+      "area": "Physics",
+      "studyType": "Bachelor (partial)",
+      "startDate": "2013-09-01",
+      "endDate": "2014-08-01"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Italian government hackaton",
+      "date": "2017-11-02",
+      "website": "https://hack.developers.italia.it/",
+      "awarder": "Wise Turtle award",
+      "summary": "Creation of a visualization tool for the data & analytics framework at the 'Team per la trasformazione digitale' of the italian government."
+    },
+    {
+      "title": "Web summit",
+      "date": "2017-11-08",
+      "website": "https://websummit.com/",
+      "awarder": "Open source award",
+      "summary": "Free ticket to the web summit conference for contributions to the open source community."
+    },
+    {
+      "title": "Maastricht center for entepreneurship",
+      "date": "2017-02-22",
+      "website": "http://www.mc4e.nl/launchbase/",
+      "awarder": "Innovation Award",
+      "summary": "Honorary certificate awarded to the most innovative startup of the LaunchBase pre-incubation programme."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Poster: Whole-word encoding paradigm for fMRI-based communication: a divide-and-conquer approach",
+      "publisher": "Organization for Human Brain Mapping",
+      "releaseDate": "2017-06-25",
+      "website": "https://simone.accascina.me/biword/poster.pdf"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JS/Typescript"
+      ]
+    },
+    {
+      "name": "Go",
+      "level": "Master",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Master",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Linux system administration",
+      "level": "Master",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Master",
+      "keywords": [
+        "Docker",
+        "Kubernetes",
+        "Google Cloud Platform"
+      ]
+    },
+    {
+      "name": "Java",
+      "level": "Intermediate",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Clojure",
+      "level": "Intermediate",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "C",
+      "level": "Beginner",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "C++",
+      "level": "Beginner",
+      "keywords": [
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Italian",
+      "fluency": "native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Leadership skills",
+      "keywords": [
+        "High school class representative for 5 years"
+      ]
+    },
+    {
+      "name": "Mountaineering",
+      "keywords": [
+        "Italian SCOUTS for 8 years",
+        "Trekking",
+        "Skiing"
+      ]
+    },
+    {
+      "name": "Music abilities",
+      "keywords": [
+        "Accordion player for 4 years at the 'Il giardino della pietra fiorita' orchestra."
+      ]
+    }
+  ]
+}

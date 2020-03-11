@@ -6,7 +6,7 @@ const C:React.SFC = p => (
   <Grid.Row>
     <Grid>
       <Grid.Row>
-        <SectionHeader title='Public Speaking' icon='announcement' />
+        <SectionHeader title='Speaking engagements' icon='announcement' />
       </Grid.Row>
       <DatedItem title='Intro to AI' position='Ifcoding Maastricht, NL'
         date='May 2018' href='https://simon.accascina.me/slides/ai/'>
